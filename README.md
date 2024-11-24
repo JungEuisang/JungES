@@ -105,11 +105,11 @@ Veggie Stock AI using YOLOv5 (Vegetable Inventory AI)
 
 1. [**https://universe.roboflow.com/](https://universe.roboflow.com/) Go to the link.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/64c8915c-4972-4773-a498-42e9a9106b16/image.png)
+![image](https://github.com/user-attachments/assets/2fa960e0-d6fe-400a-8a1a-37b4f166e74c)
 
 1. **Find the tomato dataset and download the YOLOv5 dataset.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/9723552b-451e-4d97-802a-674d90090926/image.png)
+![image (1)](https://github.com/user-attachments/assets/44ce0386-6200-41f8-8f04-b98128a21c6f)
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/c326c1cd-8152-49c7-8a6f-0b47fe857da2/image.png)
 
