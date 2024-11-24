@@ -22,7 +22,7 @@
 
 [Topic] 
 
-Veggie Stock AI using YOLOv5 (Vegetable Inventory AI)
+Veggie(*Tomato) Stock AI using YOLOv5 (Vegetable Inventory AI)
 
 ---
 
@@ -57,11 +57,11 @@ Veggie Stock AI using YOLOv5 (Vegetable Inventory AI)
 
 - The vegetable inventory AI system significantly enhances inventory management efficiency through real-time data analysis and predictive algorithms. This system reflects consumption patterns and seasonal fluctuations, enabling timely inventory replenishment and minimizing waste by reducing unnecessary stock. Additionally, it lowers labor costs through automated management processes and supports decision-making by quickly assessing inventory status, thereby improving overall operational efficiency. As a result, these improvements contribute to providing fresh products to consumers and increasing customer satisfaction.
 
-  2.  **"Cost reduction and waste minimization.”**
+  2. "Cost reduction and waste minimization.”
 
 - The vegetable inventory AI system achieves cost reduction and waste minimization through data-driven decision-making. By providing accurate demand forecasting and inventory optimization, it prevents overstocking and reduces the disposal of products that have lost freshness. Additionally, the automated inventory management process decreases the need for labor, thus lowering personnel costs and enhancing operational efficiency, which overall reduces costs. This approach helps businesses utilize resources more effectively and enables sustainable operations.
 
-  3.  "Improvement in consumer satisfaction.”
+  3. "Improvement in consumer satisfaction.”
 
 - The vegetable inventory AI system plays a crucial role in enhancing consumer satisfaction. By analyzing real-time data, the system identifies consumer preferences and purchasing patterns, enabling personalized product recommendations. Furthermore, it ensures the timely supply of fresh products, allowing consumers to consistently receive high-quality items. This optimized inventory management and personalized service enhance the customer purchasing experience and contribute to building trust in the brand. As a result, this leads to increased repurchase rates and helps secure loyal customers.
 </aside>
@@ -190,18 +190,40 @@ Veggie Stock AI using YOLOv5 (Vegetable Inventory AI)
 
 ![스크린샷 2024-11-24 170517](https://github.com/user-attachments/assets/75b63435-bc11-4b2f-aa14-e3296bfbda77)
 
-8. **Validate model results**
+8. **Detect results**
 
 ![스크린샷 2024-11-24 171212](https://github.com/user-attachments/assets/796abefd-7296-430a-adcd-503bc6012e28)
 
 ![스크린샷 2024-11-24 171248 (1)](https://github.com/user-attachments/assets/d0cf4947-0c0e-4e9b-ad4c-e8d609e18199)
 
-- **아래의 명령어를 통해 검증을 할 수 있습니다. 또는 아래 명령어로 영상으로 테스트할 수 있습니다.**
+**python [detect.py](http://detect.py/) --weight runs/train/exp9/weights/best.pt --source [테스트할 영상의 경로] --img 512 --conf 0.1**
 
-**python [detect.py](http://detect.py/) --weight runs/train/exp9/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.1**
+-!python detect.py
 
-**tomato_in_mart_final 영상은, 재고 시스템에 활용하기 위해 데이터셋을 학습시켜 여러 개의 토마토를 인식시킨 테스트 영상입니다.**
+: This part invokes the Python interpreter to execute the detect.py script and runs inference using the YOLOv5 model.
 
-**recog_tomato 영상은, 재고 시스템에 활용하기 위해 데이터셋을 학습시켜 굴러오는 토마토를 인식시킨 테스트 영상입니다. 추후, 따로 다른 채소들에 대한 데이터셋을 학습시켜 최신화 시켰습니다.**# JungES
+---weights /content/drive/MyDrive/yolov5/yolov5/runs/train/exp9/weights/best.pt
 
-awefawefawef
+: This argument specifies the path to the trained model weight file (best.pt). This file contains the learned parameters of the model, enabling it to detect objects. The weights may have been saved here after training the model in a previous step (exp5) with the best performance.
+
+---img 512
+
+: This argument sets the image size for inference to 512x512 pixels. This should match the image size used during training to ensure optimal performance.
+
+---conf 0.1
+
+: This sets the confidence threshold for object detection. The model will only output detections with a confidence score of 0.1 or higher. This value can be adjusted to control the sensitivity of the detector. Lowering the confidence threshold will result in more detections, but may also increase the number of false positives.
+
+---source /content/drive/MyDrive/drive2.mp4
+
+: This argument specifies the path to the input, representing a video file stored in Google Drive. This file is in MP4 format and can be used for various purposes, such as video analysis, editing, or as training data for machine learning models. It can be accessed in environments like Google Colab for various tasks.
+
+- **Training results video**
+
+  https://github.com/JungEuisang/JungES/blob/main/test_video/tomato_in_mart_final.mp4
+
+  https://github.com/JungEuisang/JungES/blob/main/test_video/recog_tomato.mp4
+
+9. **Conclusion (Impressions and personal feedback on the training)**
+- As seen in the validation video, I believe that a variety of tomato recognition simulations and more data are needed for accurately recognizing tomatoes. Additionally, it would be beneficial to include a diverse range of vegetables in the training process. By collecting more varied vegetable data and applying it to the model training, we can facilitate the recognition of specific vegetables in the inventory management system, leading to significantly improved and accurate results.
+ Initially, I had some difficulty understanding the integration of the inventory management system with artificial intelligence when I started this project. However, at this point, I am confident that if we continue to develop and refine this project with genuine interest, it can evolve into a truly valuable and effective system.
