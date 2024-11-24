@@ -1,7 +1,8 @@
-<aside>
-💡
+# **Nvidia AI Specialist  Certification**
 
-**OverView of the Project**
+<aside>
+
+# **OverView of the Project**
 
 - Opening background information 
 
@@ -107,11 +108,13 @@ Veggie Stock AI using YOLOv5 (Vegetable Inventory AI)
 
 ![image](https://github.com/user-attachments/assets/2fa960e0-d6fe-400a-8a1a-37b4f166e74c)
 
-1. **Find the tomato dataset and download the YOLOv5 dataset.**
+2. **Find the tomato dataset and download the YOLOv5 dataset.**
 
 ![image (1)](https://github.com/user-attachments/assets/44ce0386-6200-41f8-8f04-b98128a21c6f)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/c326c1cd-8152-49c7-8a6f-0b47fe857da2/image.png)
+
+![image (4)](https://github.com/user-attachments/assets/21fa8290-f49e-4647-b925-579d742ff17c)
+
 
 **“Download zip to computer”.**
 
@@ -121,78 +124,84 @@ Veggie Stock AI using YOLOv5 (Vegetable Inventory AI)
 
 - **Connect Google Colab to Google Drive.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/7c5eb437-b91f-4b60-88a5-4a63f11e85a5/image.png)
 
-        ****
+![image (5)](https://github.com/user-attachments/assets/738abb8f-e3aa-4690-9486-4a4d4c56c00b)
+
+  
 
 **2.  Install YOLOv5.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/cfd80eae-ad59-477e-9b68-119f8859d717/image.png)
+![image (6)](https://github.com/user-attachments/assets/988075fa-252c-4e2f-bf05-fd41d87236be)
 
-1. **Image file management.**
+
+3. **Image file management.**
 - **Create a folder to manage image files.**
 
-![스크린샷 2024-11-24 162315.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/65a392b0-d582-42ea-83c8-ad2bd1f29c2c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_162315.png)
+![스크린샷 2024-11-24 162315](https://github.com/user-attachments/assets/1794675a-8a15-45a7-8506-97eaad5c6b42)
 
-1. **Generates verification data.**
+4. **Generates verification data.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/18e623d7-5716-4a8b-b30c-806616e5c523/image.png)
+![image (7)](https://github.com/user-attachments/assets/c8790aa4-14c4-43ba-8b4b-024d206b4631)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/3547a8bd-11ee-4edc-a5a0-8fde73642068/image.png)
 
-1. **Gets the requierd library.**
+![image (8)](https://github.com/user-attachments/assets/7ece5135-3425-4300-ae2f-2574e84edfd7)
 
-![스크린샷 2024-11-24 163142.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/9ebaaa7d-ed5a-4e9c-8cd1-56b015ff595f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_163142.png)
+5. **Gets the requierd library.**
 
-![스크린샷 2024-11-24 163332.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/1d08c657-8984-4355-9377-0f00fc9331ec/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_163332.png)
+![스크린샷 2024-11-24 163142](https://github.com/user-attachments/assets/bf67f43e-ff02-4d35-afab-70389a14d150)
 
-1. **Let them learn**
+![스크린샷 2024-11-24 163332](https://github.com/user-attachments/assets/f25c02c8-f665-43d5-a293-ac3499cc6b5c)
 
-![스크린샷 2024-11-24 163557.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/f9548584-a848-4ad7-8ebf-b83282e71450/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_163557.png)
 
-1. **Learning outcome**
+6. **Let them learn**
+
+![스크린샷 2024-11-24 163557](https://github.com/user-attachments/assets/1b0e9ab9-f802-4c99-9726-f93f18d1d3d6)
+
+7. **Learning outcome**
     
-    ![스크린샷 2024-11-24 165343.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/293a7eae-3296-48aa-b874-c00072b09eec/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_165343.png)
-    
 
-![스크린샷 2024-11-24 165521.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/08c91e9c-6483-4238-98e4-090f65cf0b3d/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_165521.png)
+![스크린샷 2024-11-24 165343](https://github.com/user-attachments/assets/5da88be8-fa82-4725-9280-4f38c3a91fb7)
+
+    
+![스크린샷 2024-11-24 165521](https://github.com/user-attachments/assets/6e4f7176-75cf-4948-a690-fe61f84753bc)
+
 
 - **F1_curve**
 
-![스크린샷 2024-11-24 170135.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/bf3e0ed1-079f-42ea-99f5-722936189231/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_170135.png)
+![스크린샷 2024-11-24 170135](https://github.com/user-attachments/assets/d8581f34-f128-4660-83d1-445364d1e015)
 
 - **PR_curve**
 
-![스크린샷 2024-11-24 170224.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/1b959fd1-026d-4afc-8d83-bbc55a2be1d5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_170224.png)
+![스크린샷 2024-11-24 170224](https://github.com/user-attachments/assets/0f7684bc-7f1c-4d78-99bf-314ef6d77e09)
 
 - **P_curve**
 
-![스크린샷 2024-11-24 170315.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/7ff7525a-105c-43c4-b8f1-d33ee7551bf6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_170315.png)
+![스크린샷 2024-11-24 170315](https://github.com/user-attachments/assets/fdbcd045-bfe1-4a0a-9dfc-b22a787771b3)
 
 - **R_curve**
 
-![스크린샷 2024-11-24 170339.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/243d9e82-23f7-42f0-878d-1e8c0b0d275f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_170339.png)
+![스크린샷 2024-11-24 170339](https://github.com/user-attachments/assets/65666c05-1ed3-4c3e-b5df-1b201fa63634)
 
 - **confusion_matrix**
 
-![스크린샷 2024-11-24 170420.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/28b86ffb-190b-402e-966e-d9dcdab7433d/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_170420.png)
+![스크린샷 2024-11-24 170420](https://github.com/user-attachments/assets/4c15897a-54d2-414c-8be8-3af677b43284)
 
 - **results**
 
-![스크린샷 2024-11-24 170517.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/93f52e5e-58eb-43b6-8798-103a42c4087a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_170517.png)
+![스크린샷 2024-11-24 170517](https://github.com/user-attachments/assets/75b63435-bc11-4b2f-aa14-e3296bfbda77)
 
-1. **Validate model results**
+8. **Validate model results**
 
-![스크린샷 2024-11-24 171212.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/ad4c7dee-1502-40bc-835b-c06f85eceeba/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_171212.png)
+![스크린샷 2024-11-24 171212](https://github.com/user-attachments/assets/796abefd-7296-430a-adcd-503bc6012e28)
 
-![스크린샷 2024-11-24 171248.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5ff06de4-898b-4433-835b-50f2ac362a40/cd291057-3487-42bf-8d94-5b9bc6907b60/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-24_171248.png)
+![스크린샷 2024-11-24 171248 (1)](https://github.com/user-attachments/assets/d0cf4947-0c0e-4e9b-ad4c-e8d609e18199)
 
 - **아래의 명령어를 통해 검증을 할 수 있습니다. 또는 아래 명령어로 영상으로 테스트할 수 있습니다.**
 
-**python [detect.py](http://detect.py/) --weight runs/train/exp9/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.8**
+**python [detect.py](http://detect.py/) --weight runs/train/exp9/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.1**
 
-**tomato_in_mart_final 영상은, 다른 채소를 제외한 데이터셋을 학습시켜 토마토만 인식시킨 테스트 영상입니다.**
+**tomato_in_mart_final 영상은, 재고 시스템에 활용하기 위해 데이터셋을 학습시켜 여러 개의 토마토를 인식시킨 테스트 영상입니다.**
 
-**tomato_and_other_veg 영상은, 다른 채소들을 포함한 데이터셋을 학습시켜 토마토만 인식시킨 테스트 영상입니다. 추후, 따로 다른 채소들에 대한 데이터셋을 학습시켜 최신화 시켰습니다.**# JungES
+**recog_tomato 영상은, 재고 시스템에 활용하기 위해 데이터셋을 학습시켜 굴러오는 토마토를 인식시킨 테스트 영상입니다. 추후, 따로 다른 채소들에 대한 데이터셋을 학습시켜 최신화 시켰습니다.**# JungES
 
 awefawefawef
